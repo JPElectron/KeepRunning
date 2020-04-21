@@ -14,8 +14,10 @@ For the opposite of Keep Running see Keep NOT Running
 <b>Installation:</b>
 
 1) Ensure this prerequisite is installed:
-Microsoft Visual Basic 6.0 SP6 Run-time Components
-http://jpelectron.com/download/vb6sp6req.exe
+
+        Microsoft Visual Basic 6.0 SP6 Run-time Components
+        http://jpelectron.com/download/vb6sp6req.exe
+        
 2) Extract the contents of the .zip file
 3) Modify keeprun.ini as indicated below
 4) Run keeprun.exe

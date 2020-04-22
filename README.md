@@ -45,7 +45,7 @@ Minimally required .ini settings to launch IE on 64-bit Windows
       or to launch IE in kiosk mode...
     Launch=C:\Program Files (x86)\Internet Explorer\iexplore.exe -k
       or to launch IE in kiosk mode with a URL...
-    Launch=C:\Program Files (x86)\Internet Explorer\iexplore.exe -k http://www.jpelectron.com/krun/setup.htm
+    Launch=C:\Program Files (x86)\Internet Explorer\iexplore.exe -k http://www.example.com
 
 Minimally required .ini settings to run Iron on 64-bit Windows
    Note: Iron is based on "Chromium" sourcecode, as is Google Chrome
@@ -53,7 +53,7 @@ Minimally required .ini settings to run Iron on 64-bit Windows
     Detect=C:\Program Files (x86)\SRWare Iron\iron.exe
     Launch=C:\Program Files (x86)\SRWare Iron\iron.exe
       or to launch the browser with no history, in kiosk mode, with a URL...
-    Launch=C:\Program Files (x86)\SRWare Iron\iron.exe -incognito -kiosk http://www.jpelectron.com/krun/setup.htm
+    Launch=C:\Program Files (x86)\SRWare Iron\iron.exe -incognito -kiosk http://www.example.com
 
 Minimally required .ini settings to launch Terminal Server client on 32-bit Windows
 

@@ -14,7 +14,7 @@ Since this program is 32-bit it can only detect other 32-bit applications.
 For a 64-bit version see Keep Running x64
 For the opposite of Keep Running see Keep NOT Running
 
-<b>Installation:</b>
+## Installation
 
 1) Ensure this prerequisite is installed:
 
@@ -25,7 +25,7 @@ For the opposite of Keep Running see Keep NOT Running
 3) Modify keeprun.ini as indicated below
 4) Run keeprun.exe
 
-<b>.ini Settings:</b>
+## .ini Settings
 
 Under most circumstances Detect= and Launch= should be set to the same full path of the executable.
 
@@ -68,7 +68,7 @@ Minimally required .ini settings to launch Terminal Server client on 64-bit Wind
       or to automatically connect in full-screen mode...
     Launch=C:\Windows\SysWOW64\mstsc.exe /v:[your_terminal_server_ip] /f
 
-<b>Usage:</b>
+## Usage
 
 Optionally, use Autologon to set the workstation to logon automatically.
 
@@ -99,3 +99,13 @@ To log the restarts of a failed application define Launch= as the full path to l
 To restart a service define Detect= as the full path to "your_service.exe" but define Launch= as the full path to service-restart.bat and edit this batch file to contain the Windows service name.
 
 To detect more than one executable on the same system copy keeprun.exe and keeprun.ini into another folder, then use this second instance to detect and launch something else. When running multiple keeprun.exe's sometimes it's best to rename each keeprun.exe differently, like keeprun-for-ie.exe and keeprun-for-other.exe so you can identify each under task manager, the config file should always be named keeprun.ini
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
+
+[End of Line]
